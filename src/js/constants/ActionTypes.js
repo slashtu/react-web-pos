@@ -1,0 +1,11 @@
+export const LOAD_DATA = 'LOAD_DATA';
+export const LOAD_DATA_FAILURE = 'LOAD_DATA_FAILURE';
+export const LOAD_DATA_SUCCESS = 'LOAD_DATA_SUCCESS';
+
+export const SAVE_DATA = 'SAVE_DATA';
+export const SAVE_DATA_FAILURE = 'SAVE_DATA_FAILURE';
+export const SAVE_DATA_SUCCESS = 'SAVE_DATASUCCESS';
+
+export const SET_USER = 'SET_USER';
+
+export const SET_WEBSITETRENDS_1DAY = 'SET_WEBSITETRENDS_1Day';
