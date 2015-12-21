@@ -1,6 +1,6 @@
 {
-  "name": "generator",
-  "version": "0.0.0",
+  "name": "react-web-pos",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "DEBUG=server node ./bin/dev",
