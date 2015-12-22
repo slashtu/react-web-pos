@@ -19,7 +19,7 @@ class Cart extends Component {
         cols={4}
         padding={5}
         cellHeight={50}
-        style={{width: 700, height: 100, overflowY: 'auto', backgroundColor: 'blue'}}
+        style={{width: 500, height: 400, overflowY: 'auto', backgroundColor: 'blue'}}
       >
 
       </GridList>

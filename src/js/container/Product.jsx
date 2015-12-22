@@ -19,7 +19,7 @@ class Product extends Component {
         cols={4}
         padding={5}
         cellHeight={50}
-        style={{width: 700, height: 100, overflowY: 'auto', backgroundColor: 'red'}}
+        style={{width: 500, height: 100, overflowY: 'auto', backgroundColor: 'green'}}
       >
 
       </GridList>

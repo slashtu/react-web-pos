@@ -19,7 +19,7 @@ class Fn extends Component {
         cols={4}
         padding={5}
         cellHeight={50}
-        style={{width: 700, height: 100, overflowY: 'auto', backgroundColor: 'green'}}
+        style={{width: 500, height: 100, overflowY: 'auto', backgroundColor: 'orange'}}
       >
 
       </GridList>
