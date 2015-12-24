@@ -19,7 +19,7 @@ class Category extends Component {
         cols={4}
         padding={5}
         cellHeight={50}
-        style={{width: 500, height: 100, overflowY: 'auto', backgroundColor: 'red'}}
+        style={{width: 500, height: 500, overflowY: 'auto', backgroundColor: 'red'}}
       >
 
 

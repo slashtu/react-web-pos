@@ -23,16 +23,18 @@ class App extends Component {
 
         return (
             <GridList 
+                padding={20}
                 style={{ width: '80%', height: 600, overflowY: 'auto', backgroundColor: '#d6d6d6', margin: '0 auto'}}
             >
                 <GridTile 
+                  rows={1}
                 >
                     <Category />     
                 </GridTile>
                 <GridTile cols = {1}>
-                    <Cart />
+                    <Cart rows={3}/>
                 </GridTile>
-                <GridTile>
+                <GridTile rows={2}>
                     <Product />
                 </GridTile>
                 <GridTile>
