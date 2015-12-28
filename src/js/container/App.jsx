@@ -32,7 +32,7 @@ class App extends Component {
                     <Category />     
                 </GridTile>
                 <GridTile rows={1}>
-                    <Cart rows={1}/>
+                    <Cart rows={2}/>
                 </GridTile>
                 <GridTile rows={2}>
                     <Product />
