@@ -23,7 +23,7 @@ class App extends Component {
 
         return (
             <GridList 
-                padding={20}
+                padding={15}
                 style={{ width: '80%', height: 600, overflowY: 'auto', backgroundColor: '#d6d6d6', margin: '0 auto'}}
             >
                 <GridTile 
