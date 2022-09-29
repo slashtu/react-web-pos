@@ -5,18 +5,20 @@
   "scripts": {
     "start": "DEBUG=server node ./bin/dev",
     "test": "NODE_ENV=test mocha --compilers js:babel-core/register --recursive -R xunit > xunit.xml ",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "body-parser": "~1.13.2",
+    "body-parser": "~1.18.2",
     "chai": "^3.4.1",
     "cookie-parser": "~1.3.5",
-    "debug": "~2.2.0",
-    "isomorphic-fetch": "^2.2.0",
+    "debug": "~2.6.9",
+    "isomorphic-fetch": "^3.0.0",
     "jade": "~1.11.0",
     "material-ui": "^0.13.2",
-    "mocha": "^2.3.3",
-    "morgan": "~1.6.1",
+    "mocha": "^6.2.3",
+    "morgan": "~1.9.1",
     "react": "^0.14.2",
     "react-addons-test-utils": "^0.14.2",
     "react-d3": "^0.4.0",
@@ -28,7 +30,8 @@
     "redux-logger": "^2.0.4",
     "redux-simple-router": "0.0.8",
     "redux-thunk": "^1.0.0",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.4.5",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "babel": "^5.8.23",
@@ -48,5 +51,6 @@
     "webpack": "^1.12.2",
     "webpack-dev-middleware": "^1.2.0",
     "webpack-hot-middleware": "^2.4.1"
-  }
+  },
+  "snyk": true
 }
